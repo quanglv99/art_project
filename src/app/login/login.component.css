@@ -1,0 +1,69 @@
+:host{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    
+}
+mat-card{
+    background:linear-gradient(#647DEE,#9921E8);
+    height: 500px;
+    width: 400px;
+}
+.mat-form-field{
+    width: 100%;
+    min-width: 350px;
+    color: #ffff;
+}
+
+.card-img{
+    width: 40px;
+    height: 40px;
+    border: 20px solid #ffff;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+mat-card-title,mat-card-content,mat-card-footer{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-checkbox{
+    --primary-color: #1677ff;
+    --secondary-color: #fff;
+    --primary-hover-color: #4096ff;
+    /* checkbox */
+    --checkbox-diameter: 20px;
+    --checkbox-border-radius: 5px;
+    --checkbox-border-color: #d9d9d9;
+    --checkbox-border-width: 1px;
+    --checkbox-border-style: solid;
+    /* checkmark */
+    --checkmark-size: 1.2;
+}
+.mat-form-field{
+    border-color: #ffff;
+}
+.mat-card-content{
+    padding-top:30px ;
+}
+.mat-card-footer{
+   padding-top: 20px;
+   font-size: small;
+}
+.mat-card-title{
+    padding-top: 30px;
+    color: #ffff;
+}
+.button{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.mat-button{
+    background: #ffff;
+    width: 30%;
+}
